@@ -1,0 +1,29 @@
+{
+  "name": "02npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "01-requry-jquery-global.js",
+  "scripts": {
+    "dev": " cross-env NODE_ENV=developent gulp -f gulp.config.js",
+    "prod": "cross-env NODE_ENV=production gulp -f gulp.config.js",
+    "runjs": "node ./03-scripts/script1.js && node ./03-scripts/script2.js",
+    "test": "node ./03-scripts/script.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "03-custom-chl": "^1.0.0",
+    "axios": "^0.21.3",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
+    "underscore": "^1.13.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "gulp": "^4.0.2"
+  },
+  "config": {
+    "env": "production"
+  }
+}

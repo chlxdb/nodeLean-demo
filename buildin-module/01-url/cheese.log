@@ -1,0 +1,20 @@
+[2021-09-08T09:25:30.673] [DEBUG] cheese - Url {
+  protocol: 'https:',
+  slashes: true,
+  auth: null,
+  host: 'www.baidu.com:443',
+  port: '443',
+  hostname: 'www.baidu.com',
+  hash: '#tag=3',
+  search: '?id=2',
+  query: 'id=2',
+  pathname: '/path/index.html',
+  path: '/path/index.html?id=2',
+  href: 'https://www.baidu.com:443/path/index.html?id=2#tag=3'
+}
+
+[2021-09-08T09:34:20.350] [DEBUG] cheese - https://www.baidu.com:443/path/index.html?id=2#tag=3
+[2021-09-08T09:43:53.915] [DEBUG] cheese - URLSearchParams { 'https://www.baidu.com:443/path/index.html?id' => '2#tag=3' }
+[2021-09-08T09:43:53.918] [DEBUG] cheese - null
+[2021-09-08T09:46:11.644] [DEBUG] cheese - URLSearchParams { 'id' => '2' }
+[2021-09-08T09:46:11.647] [DEBUG] cheese - 2
